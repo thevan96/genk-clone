@@ -1,0 +1,19 @@
+{
+  "name": "thevan96/genk-clone",
+  "authors": [
+    {
+      "name": "thevan96",
+      "email": "vothevan96@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Model\\": "app/model",
+      "Controller\\": "app/controller",
+      "View\\": "app/view",
+      "Helper\\": "app/helper",
+      "routing\\": "app/core"
+    }
+  }
+}
